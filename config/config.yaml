@@ -1,0 +1,12 @@
+env: dev
+
+data:
+  user_file: data/user.yaml
+  login_file: data/login.yaml
+
+log:
+  level: INFO
+  dir: logs
+  file: logs.log
+
+base_url: http://127.0.0.1:5000

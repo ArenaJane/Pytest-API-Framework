@@ -1,0 +1,192 @@
+# =========================
+# Python 项目通用忽略
+# =========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+virtualenv/
+pip-wheel-metadata/
+# 依赖清单（建议保留）
+!requirements.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.komodoproject
+.komodotools
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =========================
+# 测试平台特定忽略
+# =========================
+
+# Allure 报告
+allure-report/
+allure-results/
+allure/
+report/
+reports/
+test-report/
+test-reports/
+
+# 测试相关
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# 日志文件
+*.log
+logs/
+log/
+*.log.*
+debug.log
+error.log
+access.log
+nginx.log
+uwsgi.log
+gunicorn.log
+
+# 数据库
+*.db
+*.sqlite3
+*.sqlite
+*.db-journal
+*.mdb
+test.db
+development.db
+production.db
+
+# 环境变量
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+.env.sample
+
+# 配置文件
+config.local.yaml
+config.local.yml
+config.local.json
+secrets.yml
+secrets.yaml
+secrets.json
+config/secrets.yml
+config/secrets.yaml
+config/secrets.json
+
+# 密钥文件
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.der
+id_rsa
+id_dsa
+*.cer
+
+# 上传文件
+uploads/
+media/
+staticfiles/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.ico
+*.svg
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.save
+*.old
+*.orig
+*.rej
+~$*
+
+# 包管理
+Pipfile.lock
+poetry.lock
+requirements*.txt
+!requirements.in
+!requirements-dev.in
+!requirements-prod.in
+
+# 文档
+docs/_build/
+docs/source/generated/
+*.docx
+*.pdf
+*.xlsx
+*.pptx
+
+# 系统
+System Volume Information/
+$RECYCLE.BIN/
+
+# =========================
+# 开发工具特定忽略
+# =========================
+
+# PyCharm
+.idea/
+*.iml
+out/
+.idea_modules/
+*.iws
+*.ipr
+*.ipr
+*workspace.xml
