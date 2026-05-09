@@ -1,20 +1,22 @@
 - name: success
-  method: POST
-  url: /login
-  json:
-    username: arena
-    password: 1sf8d6
+  request:
+    method: POST
+    url: /login
+    json:
+      username: arena
+      password: 1sf8d6
   expected:
     status_code: 200
     contains:
       msg: Login successfully
       token: token-arena
 - name: fail
-  method: POST
-  url: /login
-  json:
-    username: arena
-    password: wrongpassword
+  request:
+    method: POST
+    url: /login
+    json:
+      username: arena
+      password: wrongpassword
   expected:
     status_code: 401
     contains:
