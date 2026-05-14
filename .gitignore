@@ -145,6 +145,7 @@ staticfiles/
 *.wmv
 
 # 临时文件
+temps/
 temp/
 tmp/
 *.tmp
