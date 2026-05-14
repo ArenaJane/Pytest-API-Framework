@@ -1,0 +1,4 @@
+[32mINFO    [0m werkzeug:_internal.py:97 127.0.0.1 - - [09/May/2026 14:53:39] "POST /login HTTP/1.1" 200 -
+[32mINFO    [0m werkzeug:_internal.py:97 127.0.0.1 - - [09/May/2026 14:53:39] "POST /login HTTP/1.1" 200 -
+[32mINFO    [0m werkzeug:_internal.py:97 127.0.0.1 - - [09/May/2026 14:53:43] "[31m[1mPOST /refresh HTTP/1.1[0m" 401 -
+[32mINFO    [0m werkzeug:_internal.py:97 127.0.0.1 - - [09/May/2026 14:53:43] "[31m[1mPOST /refresh HTTP/1.1[0m" 401 -
